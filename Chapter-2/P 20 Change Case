@@ -1,0 +1,22 @@
+# Title, upper, lower
+
+name = "serena"
+print(name.title())
+print(name.upper())
+print(name.lower())
+
+phrase="ada lovelace"
+print(phrase.title())
+print(phrase.upper())
+print(phrase.lower())
+
+#P20_using variables in strings
+
+first_name = "serena"
+last_name = "wang"
+full_name = f"{first_name} {last_name}"
+print(full_name)
+print(f"Hello,{full_name}")
+print(f"Hello,{full_name.title()}!")
+message = f"Hi,{full_name.title()}"
+print(message)

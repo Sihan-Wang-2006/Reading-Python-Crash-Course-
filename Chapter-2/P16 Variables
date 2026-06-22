@@ -1,0 +1,15 @@
+#P16 Variables
+message="hello python world"
+print(message)
+
+message="hello python crash course world!"
+print(message)
+
+# Simple Message (P19 tiy)
+message2="apple"
+print(message2)
+
+message2="watermelon"
+print(message2)
+message2="banana"
+print(message2)
