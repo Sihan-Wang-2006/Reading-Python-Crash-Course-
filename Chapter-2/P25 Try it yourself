@@ -1,2 +1,33 @@
 # p25 try it yourself
 #2-3 Personal message
+Name = "Serena"
+print(f'Hello,{Name}!Would you like to learn some python today?')
+
+#2-4 Name cases
+name = "eric"
+print(name.lower())
+print(name.upper())
+print(name.title())
+
+# 2-5
+quote = 'Albert Einstein once said,"A person who never made a mistake never tried anything new."'
+print(quote)
+
+#2-6 
+famous_person = "albert einstein"
+message = f'{famous_person.title()} once said,"a person..."'
+print(message)
+
+#2-7 
+name2 = "Mike"
+name2 = "name:\n\tMike\n\tHelen"
+print(name2)
+name3 = " Joe "
+print(name3.lstrip())
+print(name3.rstrip())
+print(name3.strip())
+
+#2-8
+filename = "python_notes.txt"
+filename2 = filename.removesuffix(".txt")
+print(filename2)
