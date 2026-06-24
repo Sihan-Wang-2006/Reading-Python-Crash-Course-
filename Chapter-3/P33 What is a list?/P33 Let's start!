@@ -1,0 +1,3 @@
+# List: a collection of items in a particular order.
+bicycle = ['trek','cannondke','redline','specialized']
+print(bicycle)

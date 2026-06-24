@@ -1,0 +1,8 @@
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[0])  # prints 'trek'
+print(bicycles[1])  # prints 'cannondale'
+print(bicycles[2])  # prints 'redline'
+print(bicycles[3])  # prints 'specialized'
+
+# You can use the string methods from chapter 2.
+print(bicycles[0].title())  # prints 'Trek'

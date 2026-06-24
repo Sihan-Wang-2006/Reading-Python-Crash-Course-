@@ -1,0 +1,19 @@
+# 3-1
+names = ['Serena', 'Wang','Ning','Zhang']
+print(names[0])  # prints 'Serena'
+print(names[1])  # prints 'Wang'
+print(names[2])  # prints 'Ning'
+print(names[3])  # prints 'Zhang'
+
+# 3-2
+message1 = f'Hello, {names[0].title()}!'
+message2 = f'Hello, {names[1].title()}!'
+message3 = f'Hello, {names[2].title()}!'
+message4 = f'Hello, {names[3].title()}!'
+
+#3-3
+transportation = ['car','bus','bike','train']
+print(f"I would like to own a {transportation[0]}.")
+print(f"I would like to own a {transportation[1]}.")
+print(f"I would like to own a {transportation[2]}.")
+print(f"I would like to own a {transportation[3]}.")

@@ -1,0 +1,26 @@
+# Appending elements to the end of a list
+motorcycles = ['honda','yamaha','suzuki']
+print(motorcycles)
+
+motorcycles.append('ducati')
+print(motorcycles)
+
+motorcycles = []
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+print(motorcycles)
+#append() 是原地修改列表的方法，只负责往列表末尾加内容，执行完不会返回新列表。把它赋值给变量，变量只会拿到空值 None，完全得不到你想要的列表。
+
+name = 'John'
+name = name.lower()
+print(name)
+
+# Inserting Elements into a List
+motorcycles = ['honda','yamaha','suzuki']
+motorcycles.insert(0,'ducati')
+print(motorcycles)
+
+motorcycles = ['honda','yamaha','suzuki']
+motorcycles.insert(1,'ducati')
+print(motorcycles)

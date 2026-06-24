@@ -1,0 +1,10 @@
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[0])  # prints 'trek'
+print(bicycles[1])  # prints 'cannondale'
+print(bicycles[2])  # prints 'redline'
+print(bicycles[3])  # prints 'specialized'
+
+print(bicycles[-1])  # prints 'specialized'
+print(bicycles[-2])  # prints 'redline'
+print(bicycles[-3])  # prints 'cannondale'
+print(bicycles[-4])  # prints 'trek'
