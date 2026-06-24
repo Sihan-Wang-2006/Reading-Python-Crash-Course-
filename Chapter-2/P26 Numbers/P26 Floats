@@ -7,4 +7,3 @@ print(0.2+0.1)
 print(3*0.1)
 # Python tries to find a way to represent the result as precisely as possible, 
 # which is sometimes difficult given how computers have to represent numbers internally.
-
