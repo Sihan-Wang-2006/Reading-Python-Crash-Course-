@@ -1,0 +1,10 @@
+#2-9
+print(3+5)
+print(10-2)
+print(2*4)
+print(16/2)
+
+#2-10
+favorite_number = 1
+message = f'I like the number {favorite_number} best.'
+print(message)

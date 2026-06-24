@@ -1,0 +1,4 @@
+# constants: variables whose value stays the same throughout the life of a program.
+MAX_CONSTANTS = 5000
+print(MAX_CONSTANTS)
+# Notice that the variable name is an all capital letters. This is a convention in Python to indicate that the variable is a constant. Python does not have built-in constant types, but this naming convention is widely used to indicate that a variable should not be changed.

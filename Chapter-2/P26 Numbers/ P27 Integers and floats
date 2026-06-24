@@ -1,0 +1,6 @@
+# Division will result in a float.
+print(4/2)
+
+# If you mix an integer and a float, the result will be a float.
+print(1+2.0)
+print(2*3.0)
