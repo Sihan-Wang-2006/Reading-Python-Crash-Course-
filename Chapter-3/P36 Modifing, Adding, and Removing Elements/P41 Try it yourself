@@ -4,3 +4,38 @@ print(f"Hello {guest_list[0]}, would you like to join me for dinner?")
 print(f"Hello {guest_list[1]}, would you like to join me for dinner?")
 
 # 3-5
+print(f'{guest_list[0]} and {guest_list[1]} cannot come unfortunately.')
+del guest_list[0]
+del guest_list[1]
+guest_list.append('Amy')
+guest_list.append('Anna')
+print(f'This is our new list: {guest_list}')
+
+# 3-6
+print(f'Hello, I found a bigger dinner table, so I plan to add more guests')
+guest_list.insert(0, 'Serena')
+guest_list.insert(1, 'Zack')
+guest_list.append('Ada')
+print(f'{guest_list[0]}, welcome to come!')
+print(f'{guest_list[1]}, welcome to come!')
+print(f'{guest_list[2]}, welcome to come!')
+
+#3-7
+print(f'Sorry, we can only have two guests now.')
+guest_list.pop()
+guest_list.pop()
+guest_list.pop()
+guest_list.pop()
+guest_list.pop()
+guest_list.pop()
+print(f'{guest_list[0]}, still welcome to come!')
+print(f'{guest_list[1]}, still welcome to come!')
+del guest_list[1]
+del guest_list[0] #!!!!We cannot firstly type down 0 then 1.
+print(guest_list)
+
+
+
+
+
+
