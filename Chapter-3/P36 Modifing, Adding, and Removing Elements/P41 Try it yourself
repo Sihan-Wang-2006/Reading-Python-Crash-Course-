@@ -1,1 +1,6 @@
 # 3-4
+guest_list = ['Joe','Mike', 'Sam', 'Tom', 'Jerry']
+print(f"Hello {guest_list[0]}, would you like to join me for dinner?")
+print(f"Hello {guest_list[1]}, would you like to join me for dinner?")
+
+# 3-5
